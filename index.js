@@ -16,7 +16,7 @@ async function sha256(message) {
 
 
 async function check(value) {
-    value = value.toLocaleLowerCase()
+    value = value.toLocaleLowerCase().trim()
     let hashValue = await sha256(value);
     switch (hashValue) {
       case "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5":
@@ -50,4 +50,11 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("magicballInput").value = ""
         }
     })
+    document.getElementById("confirmButton").addEventListener("click", () => {
+      let givenValue = document.getElementById("magicballInput").value;
+      check(givenValue).then((resp) => {
+          document.getElementById("result").innerText = atob(resp);
+      })
+      document.getElementById("magicballInput").value = ""
+  })
 })
