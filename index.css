@@ -76,10 +76,16 @@ font-size: 20px;
     outline: none;
 }
 @media only screen 
-  and (max-device-width: 812px) 
+  and (max-device-width: 900px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     #backgroundImage {
         bottom: -0%;
         height: 200px;
+    }
+    .resultContainer {
+        width:80%
+    }
+    #magicballInput {
+        width: 70%;
     }
 }
