@@ -19,16 +19,19 @@ async function check(value) {
     value = value.toLocaleLowerCase().trim()
     let hashValue = await sha256(value);
     switch (hashValue) {
-      case "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5":
-        return("WW91IGRpZCBpdCEgQ29udGludWUgeW91ciBqb3VybmV5IGF0IHRoZSBtaWRkbGUgc2Nob29sIGNhZmV0ZXJpYS4uLg")
+      case "5426d2ca50f244fb43fe9eafc82da08f33f3b4f8d9140802bd0102e780b629d6":
+        return("QmluZ28hIFRoZSBuZXh0IHByb2JsZW0gaXMgaW4gTXIuIFRpY2tlbGwncyByb29tICgxMjApLiBGaW5kIGl0IGlmIHlvdSBkYXJlLi4u")
         break;
     
       case "177f85df57ad121d5aaac8076a4a0554a673182fe06cf65ee7d9f7d0961f947d":
-        return("RGluZyBkaW5nIGRpbmchIFlvdSBjYW4gZmluZCB0aGUgbmV4dCBjbHVlIGF0IGEgU3BhbmlzaCB0ZWFjaGVyJ3MgZG9vci4")
+        return("TG92ZWxhY2Ugd2FzIHRoZSBkYXVnaHRlciBvZiBhIG1hZCBwb2V0LiBIZXIgZmluYWwgd29yZHMgd2VyZTogImdvIHRvIHRoZSBhdWRpdG9yaXVtIGZvciB0aGUgbmV4dCBjbHVlIg")
         break;
 
-      case "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3":
-        return("V29vaG9vISBPbmUgbW9yZSBwdXp6bGUgcmVtYWluczogeW91IGNhbiBmaW5kIGl0IGF0IHRoZSB2ZW5kaW5nIG1hY2hpbmU")
+      case "0bbf9f8f0ba1a1b72492028bd81c99e6d3410311e86001fc2d52dbee3bf85618":
+        return("RXhjZWxsZW50ISBPbmx5IG9uZSBtb3JlIHByb2JsZW0gc3RhbmRzIGluIHlvdXIgcGF0aC4uLiBPZmYgdG8gMTY4ID0geC0xMDA")
+        break;
+      case "8fdc5818d10bd0958e1d4ce80a3abba1acc6fe4488d86808e82fce64bdbb42d3":
+        return("WW91J3ZlIGNvbXBsZXRlZCBldmVyeSB0YXNrISBUaGUgdHJlYXN1cmUgaXMgYnVyaWVkIGF0IHRoZSBmcmVzaG1lbidzIGxlYXN0IGZhdm9yaXRlIHN0YWlyY2FzZSE")
         break;
       default:
         return("V1JPTkchIFRyeSBhZ2Fpbi4uLg");
