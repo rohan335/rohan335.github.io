@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.883bb958.js",
-    "static/js/308.5d623592.js": "/static/js/308.5d623592.js",
-    "favicon.ico": "/favicon.ico",
+    "main.css": "/static/css/main.e6c13ad2.css",
+    "main.js": "/static/js/main.13384ac2.js",
+    "static/js/453.5775f5e1.chunk.js": "/static/js/453.5775f5e1.chunk.js",
+    "static/media/nycpfp.jpeg": "/static/media/nycpfp.765fc00979a192b8a044.jpeg",
+    "static/media/take3.png": "/static/media/take3.b0c42c6c59065f85ba51.png",
     "index.html": "/index.html",
-    "favicon-32.png": "/favicon-32.png",
-    "favicon-16.png": "/favicon-16.png",
-    "serve.json": "/serve.json",
-    "manifest.json": "/manifest.json",
-    "main.883bb958.js.map": "/static/js/main.883bb958.js.map",
-    "308.5d623592.js.map": "/static/js/308.5d623592.js.map"
+    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
+    "main.13384ac2.js.map": "/static/js/main.13384ac2.js.map",
+    "453.5775f5e1.chunk.js.map": "/static/js/453.5775f5e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/308.5d623592.js",
-    "static/js/main.883bb958.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.13384ac2.js"
   ]
 }
